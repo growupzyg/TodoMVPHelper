@@ -18,15 +18,15 @@ PS：暂未考虑开发人员对BaseView和BasePresenter进行个性封装的情
 ##如何使用
 ###第一步：下载TODO_MVP_Helper.jar
 
-[TODO_MVP_Helper.jar](https://github.com/growupzyg/TodoMVPHelper/TODO_MVP_Helper.jar)
+[TODO_MVP_Helper.jar](https://github.com/growupzyg/TodoMVPHelper/blob/master/TODO_MVP_Helper.jar)
 
 ###第二步：通过本地文件安装插件
 
-![image](https://github.com/growupzyg/TodoMVPHelper/img/step001.png)
-![image](https://github.com/growupzyg/TodoMVPHelper/img/step002.png)
+![image](https://github.com/growupzyg/TodoMVPHelper/blob/master/img/step001.png)
+![image](https://github.com/growupzyg/TodoMVPHelper/blob/master/img/step002.png)
 
 ###第三步：设置BaseView包名以及使用插件自动生成代码
 
-![image](https://github.com/growupzyg/TodoMVPHelper/img/step003.png)
-![image](https://github.com/growupzyg/TodoMVPHelper/img/step004.png)
-![image](https://github.com/growupzyg/TodoMVPHelper/img/step005.png)
+![image](https://github.com/growupzyg/TodoMVPHelper/blob/master/img/step003.png)
+![image](https://github.com/growupzyg/TodoMVPHelper/blob/master/img/step004.png)
+![image](https://github.com/growupzyg/TodoMVPHelper/blob/master/img/step005.png)
