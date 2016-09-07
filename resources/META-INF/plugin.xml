@@ -1,0 +1,35 @@
+<idea-plugin version="2">
+  <id>com.growupzyg.plugin.MVPHelper</id>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+  <name>TODO MVP Helper</name>
+  <version>1.1</version>
+  <vendor email="growupzyg@gmail.com" url="https://github.com/growupzyg/TodoMVPHelper"></vendor>
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+  <description>
+    A plugin can help you to create google samples TODO MVP classes
+  </description>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+
+    <action id="MVPHelper.MVPHelperAction" class="com.growupzyg.mvphelper.MVPHelperAction" text="MVPHelper"
+            description="help you to create google samples TODO MVP classes">
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="meta 1"/>
+    </action>
+  </actions>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationConfigurable instance="com.growupzyg.mvphelper.SettingUI"></applicationConfigurable>
+  </extensions>
+
+</idea-plugin>
